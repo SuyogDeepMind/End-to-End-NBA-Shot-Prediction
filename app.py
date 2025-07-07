@@ -11,13 +11,17 @@ st.title("🏀 Kobe Bryant Shot Predictor")
 st.markdown("Predict whether Kobe's shot was **Made** or **Missed** using real game data features.")
 
 shot_distance = st.slider("📏 Shot Distance (feet)", 0, 60, 20)
-is_3pt = st.selectbox("🎯 Is 3-Point Shot?", [0, 1])
-is_clutch = st.selectbox("🕑 Clutch Moment (Last 5 sec)?", [0, 1])
-home_game = st.selectbox("🏠 Home Game?", [0, 1])
+is_3pt = st.selectbox("🎯 Is 3-Point Shot?", ["No", "Yes"])
+is_3pt = 1 if is_3pt == "Yes" else 0
+is_clutch = st.selectbox("🕑 Clutch Moment (Last 5 sec)?", ["No", "Yes"])
+is_clutch = 1 if is_clutch == "Yes" else 0
+home_game = st.selectbox("🏠 Home Game?", ["No", "Yes"])
+home_game = 1 if home_game == "Yes" else 0
 period = st.slider("⏱️ Game Period (Quarter)", 1, 4, 2)
 minutes_remaining = st.slider("🕒 Minutes Remaining", 0, 12, 5)
 seconds_remaining = st.slider("🕒 Seconds Remaining", 0, 59, 30)
-playoffs = st.selectbox("🏆 Playoff Game?", [0, 1])
+playoffs = st.selectbox("🏆 Playoff Game?", ["No", "Yes"])
+playoffs = 1 if playoffs == "Yes" else 0
 season_start = st.number_input("📅 Season Start (e.g., 2000 for 2000-01)", min_value=1996, max_value=2016, value=2008)
 
 shot_zone_basic = st.selectbox("📌 Shot Zone (Basic)", ['Restricted Area', 'Mid-Range', 'Left Corner 3'])
