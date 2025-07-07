@@ -97,14 +97,17 @@ nba-shot-prediction/
 
 📂 GitHub: [nba-shot-prediction](https://github.com/SuyogDeepMind/Nba-Shot-Prediction)
 
-👨‍💻 Author
-Suyog Manke
-💼 Aspiring Data Scientist
-📫 Email: suyogmanke4@gmail.com
-🔗 LinkedIn : https://www.linkedin.com/in/suyogmanke/
-🔗 Gitub : https://github.com/SuyogDeepMind?tab=repositories
+### 👨‍💻 Author  
+**Suyog Manke**  
+💼 Aspiring Data Scientist  
+📫 Email: suyogmanke4@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/suyogmanke/)  
+🔗 [GitHub](https://github.com/SuyogDeepMind?tab=repositories)  
 
-📢 Credits
-Dataset: Kobe Bryant Shot Selection - Kaggle
+---
+
+### 📢 Credits  
+Dataset: [Kobe Bryant Shot Selection - Kaggle](https://www.kaggle.com/datasets/kobe-bryant/kobe-shot-selection)
+
 
 Powered by ❤️ and 🐍 Python
