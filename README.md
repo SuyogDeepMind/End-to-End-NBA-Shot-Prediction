@@ -107,7 +107,7 @@ nba-shot-prediction/
 ---
 
 ### 📢 Credits  
-Dataset: [Kobe Bryant Shot Selection - Kaggle](https://www.kaggle.com/datasets/kobe-bryant/kobe-shot-selection)
+Dataset: [data.csv]
 
 
 Powered by ❤️ and 🐍 Python
